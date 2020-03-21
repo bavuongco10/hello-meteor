@@ -1,0 +1,14 @@
+version: "3"
+services:
+  hello-meteor:
+    image: hello-meteor
+    container_name: hello-meteor
+    build: .
+    ports: 
+        - 7000:3000
+    environment:
+      - METEOR_ALLOW_SUPERUSER=true
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
