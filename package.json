@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.8.7",
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "denodeify": "^1.2.1",
     "meteor-node-stubs": "^0.4.1",
     "puppeteer": "^2.1.1",
